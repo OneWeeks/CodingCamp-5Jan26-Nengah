@@ -1,0 +1,89 @@
+* {
+      font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #21262d;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 10px 70px #be0000;
+}
+
+h1 { text-align: center; margin-bottom: 25px; }
+
+p {
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(157, 157, 157);
+}
+
+.input-section, .control-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#addBtn { background-color: #be0000; color: white; width: 45px; font-size: 20px; }
+#deleteAllBtn { background-color: #ed0000; color: white; padding: 0 15px; }
+#filterSelect { background-color: #30363d; flex: 0.4; }
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 10px; 
+}
+th { 
+    text-align: left; 
+    color: #8b949e; 
+    font-size: 12px; 
+    padding-bottom: 10px; 
+}
+
+td { 
+    padding: 12px 0; 
+    border-top: 1px solid #30363d; 
+}
+
+.bg-thead {
+    background-color: #8b949e;
+}
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.pending { background-color: #e3b341; color: black; }
+.completed { background-color: #2ea043; color: white; }
+
+.delete-item { color: #f85149; background: none; border: 1px solid #f85149; padding: 2px 8px; }
+.empty-msg { text-align: center; color: #8b949e; margin-top: 20px; }
